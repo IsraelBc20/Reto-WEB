@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto Semana 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(56, 0, 0);
+        }
+        .form-register {
+            width: 400px;
+            background: rgb(150, 9, 9);
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'Calibri';
+            color: white;
+            box-shadow: 7px 13px 37px #000;
+        }
+        .form-register h4 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-family: 'Calibri';
+            text-align: center;
+        }
+        .form-register h2 {
+            margin-bottom: 10px;
+            font-family: 'Calibri';
+            text-align: center;
+        }
+        .register {
+            width: 100%;
+            background: rgb(155, 0, 0);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #ff0000;
+            font-family: 'Calibri';
+            font-size: 18px;
+            color: white;
+        }
+        .form-register .botons {
+            width: 100%;
+            background: rgb(92, 0, 0);
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+        }
+        .form-register .botons:hover{
+            background: rgb(105, 17, 17);
+        }
+    </style>
+</head>
+<body>
+    <section class="form-register">
+        <h2>Reto 01</h2>
+        <h4>This is step 1</h4>
+        <input 
+            class="register"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Ingrese su nombre"
+            required
+            minlength="3"
+            maxlength="12"
+            pattern="[A-Z a-z]+"
+        >
+        <input
+            class="register"
+            type="text"
+            name="apellidos"
+            id="apellidos"
+            placeholder="Ingrese su apellidos"
+            required
+            minlength="3"
+            maxlength="12"
+            pattern="[A-Z a-z]+"
+        >
+        <input
+            class="register"
+            type="email"
+            placeholder="Ingrese su email"
+            required
+            pattern="[A-Z a-z 0-9]{1,}@[A-Z a-z 0-9]{1,}.[A-Z a-z]{2,}."
+        >
+        <input
+            class="register"
+            type="password"
+            placeholder="Ingrese contraseña de 6 dígitos"
+            required
+        >
+        <input
+            class="register"
+            type="password"
+            placeholder="Ingrese nuevamente la contraseña"
+            required
+        >
+        <a href="./2proyecto-02.html">
+            <input 
+            class="botons" 
+            type="submit" 
+            value="Ir al Reto 2"
+            >
+        </a>
+    </section>
+</body>
+</html>
