@@ -14,5 +14,6 @@ p{
     text-align: center;
 }
 button{
+    padding: 5px;
     align-items: center;
 }
