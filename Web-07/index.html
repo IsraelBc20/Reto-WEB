@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semana 07</title>
+    <title>Reto 02</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <style>
-        li{
-            list-style: none;
-        }
         a{
+            color: white;
             text-decoration: none;
-            color: black;
+        }
+        .banner-image{
+            background-image: url(https://fondosmil.com/fondo/17040.jpg);
+            background-size: cover;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-    <nav class="navbar navbar-light navbar-expand-lg">
-        <div class="container-fluid">
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
             <a href="#" class="navbar-brand">Israel</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <button type="button" class="navbar-toggler" data-bs-target= "$navbarNav"
+            data-bs-toggle="collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-2">
-                    <li class="nav-item me-5">
-                        <a href="./Reto01/reto01.html">Reto 01</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./Reto01/reto01.html" class="nav-link text-white">Reto 01</a>
                     </li>
-                    <li class="nav-item me-5">
-                        <a href="./Reto02/reto02.html">Reto 02</a>
+                    <li class="nav-item">
+                        <a href="./Reto02/reto02.html" class="nav-link text-white">Reto 02</a>
                     </li>
-                    <li class="nav-item me-5">
-                        <a href="#">Reto 03</a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Reto 03</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Imagen -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white">Reto Semana 07</h1>
+        </div>
     </div>
-    <div class="container">
-        <h1 class="text-center">
-            Retos Semana 07
-        </h1>
-    </div>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>
